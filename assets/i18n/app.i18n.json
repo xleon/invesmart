@@ -1,3 +1,10 @@
 {
-    "appName": "InveSmart"
+    "appName": "InveSmart",
+    "dialogs": {
+        "ok": "OK",
+        "cancel": "Cancel",
+        "yes": "Yes",
+        "no": "No",
+        "retry": "Retry now"
+    }
 }
