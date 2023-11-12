@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "emeraldwalk.runonsave",
+        "aaron-bond.better-comments",
+        "gaetschwartz.build-runner",
+        "dart-code.dart-code",
+        "dart-code.flutter",
+        "robert-brunhage.flutter-riverpod-snippets",
+        "blaxou.freezed",
+        "miquelddg.dart-barrel-file-generator",
+        "mthuong.vscode-flutter-freezed-helper",
+        "flutterando.flutter-coverage",
+        "ryanluker.vscode-coverage-gutters"
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "version": "2.0.0",
+    "command": "bash",
+    "type": "shell",
+    "args": [
+        "-c"
+    ],
+    "tasks": [
+        {
+            "label": "Run tests with coverage",
+            "type": "shell",
+            "command": "flutter",
+            "args": [
+                "test",
+                "--coverage"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "Generate coverage report",
+            "type": "shell",
+            "command": "genhtml",
+            "args": [
+                "-o",
+                "coverage/html",
+                "coverage/lcov.info"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "Open coverage report",
+            "type": "shell",
+            "command": "open",
+            "args": [
+                "coverage/html/index.html"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "Generate and open coverage report",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "-c",
+                "genhtml -o coverage/html coverage/lcov.info && open coverage/html/index.html"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "Generate strings",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "-c",
+                "dart run slang"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
